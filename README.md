@@ -97,7 +97,7 @@ Select `Use Data Source Configuration` then click `Connect`
 
 Navigator will show up then expand datasource, database, and select table then click `Load`
 
-<img src="./images/powerbi-get-data-athena-table.png" width=40%/>
+<img src="./images/powerbi-get-data-athena-table.png" width=50%/>
 
 On `Visualizations` tab, select `Table`
 
@@ -105,6 +105,6 @@ On `Data` tab, select column that you want to show
 
 You will notice that data is showing on dashboard.
 
-<img src="./images/powerbi-get-data-athena-dashboard.png" width=60%/>
+<img src="./images/powerbi-get-data-athena-dashboard.png" width=70%/>
 
 ---
