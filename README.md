@@ -15,11 +15,11 @@
 
 Download on this [link](https://docs.aws.amazon.com/athena/latest/ug/connect-with-odbc.html)
 
-<img src="./images/athena-driver.png" width=30%/>
+<img src="./images/athena-driver.png" width=40%/>
 
 Install Amazon Athena ODBC driver
 
-<img src="./images/athena-driver-install.png" width=30%/>
+<img src="./images/athena-driver-install.png" width=40%/>
 
 #### 1.3 Setup ODBC Data Sources
 
@@ -29,11 +29,11 @@ Search for `ODBC Data Sources`
 
 On `System DNS` tab then click `Add...`
 
-<img src="./images/odbc-add.png" width=30%/>
+<img src="./images/odbc-add.png" width=40%/>
 
 Select Name `Simba Athena ODBC Driver` then click `Finish`
 
-<img src="./images/odbc-add-finish.png" width=30%/>
+<img src="./images/odbc-add-finish.png" width=40%/>
 
 On `Simba Athena ODBC Driver DSN Setup` Input following information
 
@@ -45,7 +45,7 @@ S3 Output Location: `s3://<S3-BUCKET>/`
 
 then click `Authentication Options...`
 
-<img src="./images/odbc-add-dsn-setup.png" width=30%/>
+<img src="./images/odbc-add-dsn-setup.png" width=40%/>
 
 Authentication Type: `IAM Credentials`
 
@@ -59,15 +59,15 @@ then click `OK`
 
 Test connection by click `Test...`
 
-<img src="./images/odbc-add-dsn-authen-test.png" width=30%/>
+<img src="./images/odbc-add-dsn-authen-test.png" width=40%/>
 
 Message shows `SUCESS!` then click `OK`
 
-<img src="./images/odbc-add-dsn-authen-success.png" width=30%/>
+<img src="./images/odbc-add-dsn-authen-success.png" width=40%/>
 
 Click `OK` to finish setup ODBC Data Source
 
-<img src="./images/odbc-add-dsn-authen-finish.png" width=30%/>
+<img src="./images/odbc-add-dsn-authen-finish.png" width=40%/>
 
 ---
 
@@ -77,11 +77,11 @@ Click `OK` to finish setup ODBC Data Source
 
 Open `Power BI`. In `Home` tab, click `Get data`
 
-<img src="./images/powerbi-get-data.png" width=30%/>
+<img src="./images/powerbi-get-data.png" width=40%/>
 
 Search for `Athena` and click `Connect`
 
-<img src="./images/powerbi-get-data-search.png" width=30%/>
+<img src="./images/powerbi-get-data-search.png" width=40%/>
 
 DSN: `MyTestDataSource` (Your Data Source Name)
 
@@ -89,11 +89,11 @@ Data Connectivity mode: `DirectQuery`
 
 Click `OK`
 
-<img src="./images/powerbi-get-data-athena.png" width=30%/>
+<img src="./images/powerbi-get-data-athena.png" width=40%/>
 
 Select `Use Data Source Configuration` then click `Connect`
 
-<img src="./images/powerbi-get-data-athena-connect.png" width=30%/>
+<img src="./images/powerbi-get-data-athena-connect.png" width=40%/>
 
 Navigator will show up then expand datasource, database, and select table then click `Load`
 
