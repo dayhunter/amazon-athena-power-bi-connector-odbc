@@ -108,3 +108,11 @@ You will notice that data is showing on dashboard.
 <img src="./images/powerbi-get-data-athena-dashboard.png" width=70%/>
 
 ---
+
+## References
+
+- [Connecting to Amazon Athena with ODBC](https://docs.aws.amazon.com/athena/latest/ug/connect-with-odbc.html)
+
+- [Using the Amazon Athena Power BI connector](https://docs.aws.amazon.com/athena/latest/ug/connect-with-odbc-and-power-bi.html)
+
+---
