@@ -53,9 +53,9 @@ User: `<AWS_ACCESS_KEY_ID>` (Your AWS Access Key ID)
 
 Password: `<AWS_SECRET_ACCESS_KEY>` (Your AWS Secret Access Key)
 
-Session Token: `<AWS_SESSION_TOKEN>` (Your AWS Session Token)
-
 then click `OK`
+
+<img src="./images/odbc-add-dsn-authen-setup.png" width=40%/>
 
 Test connection by click `Test...`
 
